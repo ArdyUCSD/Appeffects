@@ -44,3 +44,10 @@ body {
     background-color: #CCCCFF;
 }
 
+img {
+     max-width: 100%;
+     height: auto;
+     width: auto\9;
+}
+
+

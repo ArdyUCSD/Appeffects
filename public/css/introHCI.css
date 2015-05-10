@@ -53,3 +53,5 @@ img {
 .div {
      -webkit-appearance: none;
 }
+
+.clickable { cursor: pointer; }

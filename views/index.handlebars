@@ -1,0 +1,65 @@
+<!doctype html>
+
+<html>
+<head>
+	<title>Sound Effects</title>	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="/css/bootstrap.min.css" rel="stylesheet">
+	<link href="/css/bootstrap-theme.min.css" rel="stylesheet">
+	<link href="/css/introHCI.css" rel="stylesheet">   
+</head>
+
+<body>
+	<so><p>This is Pointless</p></so>
+	<audio id="Chang" src="https://dl-web.dropbox.com/get/Sound%20App/Chang.mp3?_subject_uid=392540220&w=AABzjbDJxrJmNBQhhd4qr2mHZmSC49SYtk3A5ebBxLGaQQ"></audio>
+	<audio id="Nacho" src="https://dl-web.dropbox.com/get/Sound%20App/Macho%20Nacho%20man.mp3?_subject_uid=392540220&w=AADf51A7y62znHbr_7w_2rAW34pSBcyEgnHs1K4FdxN4Ww"></audio>
+	<audio id="Applause" src="https://dl-web.dropbox.com/get/Sound%20App/Clapping.mp3?_subject_uid=392540220&w=AABM8MQVnCepSuKrXAkDdBQwc6_0LHVbOcR-zElRVMrQtw"></audio>
+	<audio id="Scott" src="https://dl-web.dropbox.com/get/Sound%20App/That%27s%20what%20she%20said%20-%20Michael%20Scott%20%28mp3cut.net%29.mp3?_subject_uid=392540220&w=AAAMUGu4liE7hIjYSCSM6EzEMRaABKpq4hEs-0Lu0nyREA"></audio>
+	<audio id="Bart" src="https://dl-web.dropbox.com/get/Sound%20App/AyCarumba.mp3?_subject_uid=392540220&w=AAC5h1wPWYqIk9cAaC9mVhlLeDbZDk1KBHEbkeI_J4pU9w"></audio>
+	<audio id="Batman" src="https://dl-web.dropbox.com/get/Sound%20App/Batman.mp3?_subject_uid=392540220&w=AAAtHHXHKFCb0cvb3X77QU0ztJz6x5PFipzTdBTFqPA2rw"></audio>
+	<audio id="Quagmire" src="https://dl-web.dropbox.com/get/Sound%20App/Quagmire%20Giggity%20Giggity%20Goo.mp3?_subject_uid=392540220&w=AAAma0xiYfZLl-JBt88wuaA5eXxXkxFKdUroF8HzeUf_wQ"></audio>
+	<audio id="FinishHim" src="https://dl-web.dropbox.com/get/Sound%20App/Finish%20Him%21%20Mortal%20Kombat%20-%20Sound%20Effect.mp3?_subject_uid=392540220&w=AAAknGxNurQtc3WbnCvNeO9vYEvkH6ZCTdEOR16BMC8d5Q"></audio>
+	<audio id="Zelda" src="https://dl-web.dropbox.com/get/Sound%20App/Zelda-%20Ocarina%20of%20Time%20-%20Chest%20open%20sound%20with%20item%20get%20%28-w%20Download%21%29.mp3?_subject_uid=392540220&w=AABS5XUEbdH7Riil51nXloP7rb3FTGfPEYDvb26u-qW6Iw"></audio>
+	<audio id="Kirk" src="https://dl-web.dropbox.com/get/Sound%20App/KHAAAAAAAAANNNNN%21%21%21.mp3?_subject_uid=392540220&w=AAC_bnUBtSa8oWXarnP1nH7EdvhRO5S1YgCSa_5_vZA6Zw"></audio>
+
+	<audio id="Patrick1" src="https://dl-web.dropbox.com/get/Sound%20App/Patrick1.mp3?_subject_uid=392540220&w=AAByUTtqEg_TDKLIGOaR97oi2fRwUCiQPR1z29LlhQ3OiQ"></audio>
+	<audio id="Patrick2" src="https://dl-web.dropbox.com/get/Sound%20App/Patrick2.mp3?_subject_uid=392540220&w=AACh8qpdnHCgyCgK7F-is1GF8sAIyggr9dn5XQOYlsTDUg"></audio>
+	<audio id="Patrick3" src="https://dl-web.dropbox.com/get/Sound%20App/Patrick3.mp3?_subject_uid=392540220&w=AADfR9K54oa9mLkMv6DNTy7MiESky1QZfsFa5OIs1PL3pA"></audio>
+
+    <script>
+    W = 0;
+    function PatrickFunction() {
+    	if (W == 0) {
+    		document.getElementById("Patrick1").play();
+    		W = 1;
+    	} else if (W == 1) {
+    		document.getElementById("Patrick2").play();
+    		W = 2;
+    	} else {
+    		document.getElementById("Patrick3").play();
+    		W = 0;
+    	}
+    }
+    </script>
+
+
+<div>
+  <button onclick="document.getElementById('Chang').play()"><img src="http://i.ytimg.com/vi/3SASx_QwY_A/maxresdefault.jpg" style="height:200px;width:300px;"></button>
+  <button onclick="document.getElementById('Nacho').play()"><img src="https://c4.staticflickr.com/4/3088/2313556732_13eba22f03.jpg" style="height:200px;width:300px;"></button>
+  <button onclick="document.getElementById('Applause').play()"><img src="http://holdinholden.com/wp-content/uploads/2015/01/applause.jpg" 
+  	style="height:200px;width:300px;"></button>
+  <button onclick="document.getElementById('Scott').play()"><img src="http://i.ytimg.com/vi/aIWrFNDKQ6o/maxresdefault.jpg" style="height:200px;width:300px;"></button>
+  <button onclick="document.getElementById('Bart').play()"><img src="https://yashparghi.files.wordpress.com/2012/03/marge-be-not-proud-3.png" style="height:200px;width:300px;"></button>
+  <button onclick="document.getElementById('Batman').play()"><img src="http://static.guim.co.uk/sys-images/Film/Pix/pictures/2014/10/10/1412955145643/Michael-Keaton-in-Batman-014.jpg" style="height:200px;width:300px;"></button>
+  <button onclick="document.getElementById('Quagmire').play()"><img src="http://s3.amazonaws.com/rapgenius/filepicker%2FBusm2ZXzRBOMeS5JBeaV_605-quagmire-wallpaper-family-guy-wallpaper.jpg" style="height:200px;width:300px;"></button>
+  <button onclick="document.getElementById('FinishHim').play()"><img src="http://www.wall-mag.com/wp-content/uploads/2012/05/mortal-kombat-parodie.jpg" style="height:200px;width:300px;"></button>
+  <button onclick="document.getElementById('Zelda').play()"><img src="http://www.zeldadungeon.net/Zelda05/Walkthrough/01/1_Deku10_Large.jpg" style="height:200px;width:300px;"></button>
+  <button onclick="document.getElementById('Kirk').play()"><img src="http://hilobrow.com/wp-content/uploads/2012/08/kirk-khan-shout.jpg" style="height:200px;width:300px;"></button>
+  <button onClick="PatrickFunction()"><img src="http://i2.ytimg.com/vi/ImyydKHz5B0/hqdefault.jpg" style="height:200px;width:300px;"></button>
+</div>
+
+	<script src="https://code.jquery.com/jquery.js"></script>
+	<script src="/js/bootstrap.min.js"></script>
+</body>
+</html>

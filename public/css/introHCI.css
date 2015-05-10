@@ -54,4 +54,4 @@ img {
      -webkit-appearance: none;
 }
 
-clickable { cursor: pointer; }
+.clickable { cursor: pointer; }

@@ -44,12 +44,13 @@ body {
     background-color: #CCCCFF;
 }
 
-img {
-     max-width: 100%;
-     height: auto;
-     width: auto\9;
-}
 
+.click {
+     width: 50%;
+     float: left;
+     text-align: center;
+     height: 125px;
+}
 .div {
      -webkit-appearance: none;
 }
